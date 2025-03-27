@@ -1,3 +1,8 @@
+## Get me the Weather!
+
+An application to get the latest weather of a city.
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
