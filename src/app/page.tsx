@@ -31,7 +31,7 @@ export default function Home() {
           const longitude = position.coords.longitude;
           console.log(`Latitude: ${latitude}, Longitude: ${longitude}`);
           const data = await fetch(
-            `http://api.openweathermap.org/geo/1.0/reverse?lat=${latitude}&lon=${longitude}&limit=5&appid=${process.env.NEXT_PUBLIC_OPENWEATHER_API_KEY}`
+            `https://api.openweathermap.org/geo/1.0/reverse?lat=${latitude}&lon=${longitude}&limit=5&appid=${process.env.NEXT_PUBLIC_OPENWEATHER_API_KEY}`
           );
 
           const json = await data.json();
